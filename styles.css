@@ -96,7 +96,7 @@ a:active {
 	color: #86898f;
 	line-height: 1.5rem;
 	padding-bottom: 70px;
-	width: 400px;
+	width: 380px;
 }
 
 .info-text h4 {
@@ -123,9 +123,10 @@ a:active {
 		margin-top: 25px;
 	}
 	.info-text p {
-		width: auto;
+		width: 300px;
 		padding: 10px;
 		margin-bottom: 40px;
+		margin-left: 40px;
 	}
 }
 
@@ -159,22 +160,28 @@ a:active {
 	margin-top: 50px;
 	display: block;
 	margin: 60px 60px auto;
-	min-width: 320px;
-	max-width: 650px;
-	width: 550px;
+	/* min-width: 320px;
+	max-width: 650px; */
+	width: 640px;
 }
 
 @media (max-width: 500px) {
+	.bg-linen h2 {
+		/* margin-left: 60px; */
+		text-align: center;
+	}
+
 	.bg-linen {
-		width: 300px;
+		width: 350px;
 		font-size: 1rem;
-		margin: auto;
-		padding: 10px;
+		margin: 17px;
+		padding: 15px;
 	}
 	.list {
-		width: 70%;
+		width: 69%;
 		margin: auto;
-		padding: 30px;
+		padding-left: 60px;
+		margin-left: 40px;
 	}
 }
 
@@ -185,7 +192,7 @@ a:active {
 .list li {
 	color: #86898f;
 	margin-bottom: 10px;
-	max-width: 450px;
+	max-width: 560px;
 }
 
 .list li:last-child {
@@ -196,10 +203,10 @@ a:active {
 	background: #e8ecff;
 	line-height: 1.6em;
 	text-align: center;
-	width: 550px;
+	width: 640px;
 	margin: 60px auto;
-	padding-top: 25px;
-	padding-bottom: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	border-end-end-radius: 30px;
 	border-top-left-radius: 30px;
 	border-top-right-radius: 5px;
@@ -209,8 +216,8 @@ a:active {
 
 @media (max-width: 500px) {
 	.social-media {
-		width: 335px;
-		margin: auto;
+		width: 380px;
+		margin: 17px;
 		padding-bottom: 30px;
 		margin-top: 60px;
 		margin-bottom: 0;
@@ -237,6 +244,11 @@ a:active {
 		width: auto;
 		text-align: center;
 		margin: 0;
+	}
+
+	.table td:nth-child(2),
+	.table td:nth-child(3) {
+		width: 70px;
 	}
 }
 
@@ -285,19 +297,14 @@ a:active {
 	padding-top: 10px;
 }
 
-@media (max-width: 500px) {
-	.call {
-		width: 350px;
-		margin: auto;
-	}
-}
+
 
 .call {
 	border-end-end-radius: 30px;
 	border-top-left-radius: 30px;
 	border-top-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	width: 67%;
+	width: 640px;
 	margin: auto;
 	margin-top: 60px;
 	margin-bottom: 60px;
@@ -306,6 +313,16 @@ a:active {
 	height: 500px;
 	position: relative;
 	box-sizing: border-box;
+	z-index: 1;
+}
+
+@media (max-width: 500px) {
+	.call {
+		width: 380px;
+		margin: auto;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
 }
 
 .form h2 {
@@ -319,14 +336,16 @@ a:active {
 
 @media (max-width: 500px) {
 	.form {
-		width: 70%;
-		/* margin: auto; */
+		width: 80%;
+		margin: 30px;
+		margin-left: 50px;
 	}
 
 	.form h2 {
 		padding: 0px;
 		margin-left: 15px;
 		text-align: center;
+		margin-top: 20px;
 	}
 }
 
@@ -351,6 +370,19 @@ a:active {
 	margin: 10px;
 	margin-left: 80px;
 	text-align: center;
+	width: fit-content;
+}
+
+@media (max-width: 500px) {
+	.form-group label {
+		display: block;
+		font-size: 14px;
+		color: #86898f;
+		margin: 10px;
+		margin-left: 40px;
+		text-align: center;
+		width: 150px;
+	}
 }
 
 .form-group input,
@@ -371,7 +403,8 @@ a:active {
 @media (max-width: 500px) {
 	.form-group input,
 	.form-group textarea {
-		width: 195px;
+		text-align: center;
+		width: 250px;
 		box-sizing: border-box;
 		border: 1px solid #ccc;
 		background: #e8ecff;
@@ -381,7 +414,7 @@ a:active {
 		padding: 10px 10px 10px;
 		outline: none;
 		font-family: inherit;
-		margin-left: 20px;
+		margin-left: -8px;
 	}
 }
 
@@ -404,6 +437,7 @@ a:active {
 
 @media (max-width: 500px) {
 	.btn {
+		margin-top: 25px;
 		margin-left: 60px;
 	}
 }
