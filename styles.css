@@ -34,6 +34,13 @@
 	padding-top: 20px;
 }
 
+@media (max-width: 500px) {
+	.container {
+		margin-right: 10px auto;
+		padding-top: 20px;
+	}
+}
+
 /* Tag name */
 body {
 	font-family: "Ubuntu", sans-serif;
@@ -75,8 +82,8 @@ a:active {
 }
 
 .info {
-	margin-top: 180px;
-	margin-bottom: 0px;
+	margin-top: 150px;
+	margin-bottom: 20px;
 	display: flex;
 }
 
@@ -113,8 +120,8 @@ a:active {
 	}
 
 	.seaside {
-		width: 75%;
-		margin: auto;
+		width: 82%;
+		margin: 10px;
 		box-sizing: border-box;
 		display: inline-flex;
 	}
@@ -126,7 +133,7 @@ a:active {
 		width: 300px;
 		padding: 10px;
 		margin-bottom: 40px;
-		margin-left: 40px;
+		margin-left: 28px;
 	}
 }
 
@@ -157,9 +164,9 @@ a:active {
 	padding-top: 25px;
 	padding-bottom: 35px;
 	padding-left: 70px;
-	margin-top: 50px;
+	margin-top: 20px;
 	display: block;
-	margin: 60px 60px auto;
+	margin: 20px 60px auto;
 	/* min-width: 320px;
 	max-width: 650px; */
 	width: 640px;
@@ -172,7 +179,7 @@ a:active {
 	}
 
 	.bg-linen {
-		width: 350px;
+		width: 310px;
 		font-size: 1rem;
 		margin: 17px;
 		padding: 15px;
@@ -216,7 +223,7 @@ a:active {
 
 @media (max-width: 500px) {
 	.social-media {
-		width: 380px;
+		width: 340px;
 		margin: 17px;
 		padding-bottom: 30px;
 		margin-top: 60px;
@@ -241,7 +248,7 @@ a:active {
 	.work h2 {
 		margin-top: 30px;
 		padding: 0;
-		width: auto;
+		width: 150px;
 		text-align: center;
 		margin: 0;
 	}
@@ -318,8 +325,8 @@ a:active {
 
 @media (max-width: 500px) {
 	.call {
-		width: 380px;
-		margin: auto;
+		width: 340px;
+		/* margin: auto; */
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
@@ -337,15 +344,14 @@ a:active {
 @media (max-width: 500px) {
 	.form {
 		width: 80%;
-		margin: 30px;
-		margin-left: 50px;
+		margin-left: 20px;
 	}
 
 	.form h2 {
 		padding: 0px;
-		margin-left: 15px;
+		margin-left: 25px;
 		text-align: center;
-		margin-top: 20px;
+		margin-top: 35px;
 	}
 }
 
@@ -414,7 +420,7 @@ a:active {
 		padding: 10px 10px 10px;
 		outline: none;
 		font-family: inherit;
-		margin-left: -8px;
+		margin-left: 0;
 	}
 }
 
